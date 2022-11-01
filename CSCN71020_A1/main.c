@@ -20,8 +20,10 @@ void main() {
 	{
 	case 1:
 		add();
+		break;								// Break added to ensure that the program terminate after the function has been executed
 	case 2:									// Case 2 added for user to choose option for subtract function 
 		subtract();							// Subtract function call added 
+		break;								// Break added to ensure that the program terminate after the function has been executed
 	}
 
 }
